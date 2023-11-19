@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register-body">
+
+    <div class="container">
+        <div id="register-form" class="form-container">
+            <h2>Registrarse</h2>
+            <form onsubmit="return validateRegisterForm()">
+                <label for="register-email">Correo electrónico:</label>
+                <input type="text" id="register-email" name="register-email" required>
+                <br>
+                <label for="register-password">Contraseña:</label>
+                <input type="password" id="register-password" name="register-password" required>
+                <br>
+                <input type="submit" value="Registrarse">
+            </form>
+            <p>Ya tienes una cuenta? <a href="index.html">Inicia sesión aquí</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
